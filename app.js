@@ -4,6 +4,9 @@ var links = ["./imgs/02.jpg", "./imgs/04.jpg", "./imgs/03.PNG", "./imgs/05.jpg",
 
 var count = 0
 
+elm.setAttribute("src", links[4]);
+// elm.setAttribute("transition", "2s")
+
 function fun(value){
 
     if(count>4){
@@ -19,4 +22,4 @@ function fun(value){
     count++;
 }
 
-setInterval(fun, 2500)
+setInterval(fun, 3000)
